@@ -1,0 +1,88 @@
+body{
+    background:rgb(64, 139, 236);
+
+}
+p{
+    color: white;
+    padding:10px
+    
+}
+
+.intro{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+
+.intro-div{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 50px;
+    
+    
+}
+li{
+    display: inline-block;
+    margin-top :5px;
+    margin-left: 50px;
+    padding: 7px;
+    text-decoration: none;
+        
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 75px;
+}
+.paragraph{
+    text-align: center;
+    font-size: x-large;
+}
+
+ul{
+   align-content:flex-end ;
+}
+
+.cloud-computing{
+    display: flex;
+    
+}
+.field{
+    width:700px;
+    margin: auto;
+    border-radius: 15px;
+    padding:15px
+}
+.form-field{
+    width:300px;
+    margin: auto;
+    border-radius: 15px;
+}
+legend{
+    color: white;
+}
+
+.form{
+    margin:10px;
+    padding: 10px;
+    color:white
+}
+#name{
+    margin:5px
+}
+#email{
+    margin:5px
+}
+#updates{
+    margin:10px
+}
+#button{
+    margin-top:7px;
+    margin-left:100px;
+    border-radius: 15px;
+    
+}
+#contact{
+    text-align: center;
+}
+
