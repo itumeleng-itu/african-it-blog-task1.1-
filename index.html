@@ -9,14 +9,15 @@
 <body>
     <header>
         
-        <div class="intro-div">
-            <h1 class="intro">Bienvenu</h1>
-            <ul>
-                <li><b><a href="#home">Home</a></b></li>
-                <li><b><a href="#about">About</a></b></li>
-                <li><b><a href="#contact">Contact</a></b></li>
-            </ul>
-        </div>
+    <div class="intro-div">
+        <h1 class="intro">Bienvenu</h1>
+        <ul class="nav-links">
+            <li><strong><a href="#home">Home</a></strong></li>
+            <li><strong><a href="#about">About</a></strong></li>
+            <li><strong><a href="#contact">Contact</a></strong></li>
+        </ul>
+    </div>
+
     </header>
         <p class="paragraph"><b>Welcome, this is a page that highlights the challenges that IT professionals are facing.</b></p>
         
@@ -53,7 +54,7 @@
         <br>
         <fieldset class="form-field">
             <legend>Sign up for news-letter</legend>
-            <form action="https://formspree.io/f/mzzgwzgv" method="post" class="form">
+            <form id="myForm" class="form">
                 <label for="name">Name: <input type="text" name="name" id="name" required></label><br>
                 <label for="email">Email: <input type="email" name="email" id="email" required></label><br>
                 <label for="updates">Get Updates </label>

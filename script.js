@@ -1,18 +1,13 @@
-const fullname= document.getElementById("name").value.trim()
-const email= document.getElementById("email").value.trim()
-const updates= document.getElementById(".updates").checked
-const submit= document.querySelector("button")
+const form = document.getElementById("myForm");
+const fullname = document.getElementById("name").value.trim();
+const email = document.getElementById("email").value.trim();
+const updates = document.querySelector('input[name="updates"]:checked');
 
-function checkInputs(){
-    if(fullname==="" && email==="" && !updates){
-        alert("please enter your details correctly")
+form.addEventListener("submit", function (e) {
+
+    if (fullname === "" || email === "" || !updates) {
+        alert("Please enter your details correctly.");
+    } else {
+        alert("Sign-up successful, you will nou recieve updates everyting we upload content!");
     }
-    else{
-        alert("sign-up successful")
-    }
-}
-
-submit.onclick=checkInputs;
-
-
-
+});
