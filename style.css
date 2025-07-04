@@ -1,16 +1,21 @@
 body{
-    background:linear-gradient(to right, #4facfe, #00f2fe);
-
+    background-image: url("/media/images/background2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-p{
-    color: white;
+.def{
+    color: rgb(230, 233, 236);
     padding:10px;
     text-shadow: black;
-    
+    margin: auto;
+    padding-left:150px;
+    font-size: x-large;
+    text-shadow: 2px 1px rgb(30, 88, 143);
 }
 
 .intro {
-    color: white;
+    color: rgb(30, 88, 143);
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
 
@@ -20,7 +25,7 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid white;
+    border: 2px solid rgb(28, 76, 109);
     border-radius: 50px;
     padding: 10px 20px;
 }
@@ -28,15 +33,17 @@ p{
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 5px;
-    padding: 0;
-    margin: 0;
+    padding: 10;
+    margin: 0;   
 }
 
 .nav-links a {
-    color: white;
+    color: rgb(66, 152, 233);
     text-decoration: none;
     font-weight: bold;
+    font-size: large;
+    text-shadow: 2px 1px white;
+    font-size: x-large;
 }
 
 
@@ -54,9 +61,13 @@ a{
     text-decoration: none;
     padding-left: 75px;
 }
+
 .paragraph{
     text-align: center;
     font-size: x-large;
+    margin:auto;
+    color: rgb(30, 88, 143);
+    text-shadow: 2px 1px rgb(220, 224, 228)
 }
 
 ul{
@@ -68,11 +79,12 @@ ul{
     
 }
 .field{
-    width:700px;
+    width:1000px;
     margin: auto;
     border-radius: 15px;
     padding:15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(235, 232, 232, 0.2);
+    border: 1px solid rgb(210, 218, 224);
 }
 .form-field{
     width:300px;
@@ -105,11 +117,17 @@ legend{
 }
 #contact{
     text-align: center;
+    color:white
+}
+#evolution{
+    opacity: 0.5;
 }
 
 .nav-links a:hover {
     text-decoration: overline;
+    color: #0f3844;
 }
+
 
 @media only screen and (max-width:600px){
     body{
