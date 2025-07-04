@@ -15,10 +15,10 @@ body{
 }
 
 .intro {
-    color: rgb(30, 88, 143);
+    color: rgb(208, 213, 218);
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-
+    text-shadow: rgb(30, 88, 143);
 }
 
 .intro-div {
