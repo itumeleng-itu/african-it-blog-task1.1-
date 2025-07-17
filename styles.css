@@ -10,3 +10,8 @@ body{
     text-align: center;
     text-shadow: rgb(30, 88, 143);
 }
+.def{
+    color:white;
+    font-size: large;
+    font-weight: bold;
+}
