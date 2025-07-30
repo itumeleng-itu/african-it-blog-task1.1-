@@ -1,0 +1,111 @@
+
+body {
+    background-image: url("media/images/background2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.intro {
+    color: rgb(208, 213, 218);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(30, 88, 143);
+}
+
+.def {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    text-shadow: rgb(30, 88, 143);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.windows, .mac, .linux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: 2px solid lightblue;
+    border-radius: 50%;
+    
+}
+
+.windows {
+    border: 3px solid green;
+    border-radius: 25px;
+    .display {
+        background-image: url("media/images/Gemini_Generated_Image_wjxvbewjxvbewjxv.png");
+        margin-top: 10px;
+        margin-bottom: 15px;
+}
+}
+.mac{
+    border: 3px solid blue;
+    border-radius: 25px;
+    .display {
+        background-image: url("media/images/Gemini_Generated_Image_vpz2d6vpz2d6vpz2.png");
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+} 
+
+.linux{
+    border: 3px solid white;
+    border-radius: 25px;
+    .display {
+        background-image: url("media/images/Gemini_Generated_Image_y61a4iy61a4iy61a.png");
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+} 
+.dir-structure, .nam-conventions, .file-system, .exe, .execution {
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px;
+    width: 80%;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+ul {
+    color: white;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 900px) {
+    .parent {
+        grid-template-columns: 1fr;
+    }
+}
+
+    

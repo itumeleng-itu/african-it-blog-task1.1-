@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="intro">Operating Systems</h1>
+    <br>
+    <p class="def">
+        Operating system: a software which performs all the basic tasks like file management, memory management, process management, handling input and output, and controlling peripheral devices such as disk drives and printers.
+    </p>
+    <div class="parent">
+        <div class="windows">
+            <div class="display"></div>
+            <br>
+            <div class="dir-structure">
+                <h2>Directory Structure</h2>
+                <ul>
+                    <li>Hierarchical structure starting with drives (e.g., `C:\`).</li>
+                    <li>Key folders: `Program Files`, `Users`, `Windows`.</li>
+                    <li>File paths: Backslashes (`\`), (e.g., `C:\Users\Name\Document.txt`).</li>
+                </ul>
+            </div>
+            <br>
+            <div class="nam-conventions">
+                <h2>Naming Conventions</h2>
+                <ul>
+                    <li>Not case sensitive</li>
+                    <li>266 characters</li>
+                </ul>
+            </div>
+            <br>
+            <div class="file-system">
+                <h2>File Systems</h2>
+                <ul>
+                    <li>NTFS (default), ReFS</li>
+                    <li>FAT32 for USB drives, SD cards</li>
+                </ul>
+            </div>
+            <div class="exe">
+                <h2>Executable File Extensions</h2>
+                <ul>
+                    <li>`.exe` (applications)</li>
+                    <li>`.bat` (batch files)</li>
+                    <li>`.ps1` (PowerShell scripts)</li>
+                </ul>
+            </div>
+            <div class="execution">
+                <h2>Script Execution</h2>
+                <ul>
+                    <li>Batch files (`.bat`): Double-click or run in Command Prompt (`cmd.exe`).</li> 
+                    <li>PowerShell (`.ps1`): Run in PowerShell (may require `Set-ExecutionPolicy`)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="linux">
+            <div class="display"></div>
+            <br>
+            <div class="dir-structure">
+                <h2>Directory Structure</h2>
+                <ul>
+                    <li>Unix-like hierarchy with root (`/`).</li>
+                    <li>Key folders: `/home` (user files), `/bin` (executables), `/etc` (configs)</li>
+                    <li>File paths: Forward slashes (`/`), e.g., `/home/name/Document.txt`.</li>
+                </ul>
+            </div>
+            <br>
+            <div class="nam-conventions">
+                <h2>Naming Conventions</h2>
+                <ul>
+                    <li>case sensitive</li>
+                    <li>255 characters</li>
+                </ul>
+            </div>
+            <br>
+            <div class="file-system">
+                <h2>File Systems</h2>
+                <ul>
+                    <li>ext4 (default), XFS, Btrfs</li>
+                    <li>FAT32 for external media </li>
+                </ul>
+            </div>
+            <div class="exe">
+                <h2>Executable File Extensions</h2>
+                <ul>
+                    <li>`.bin` </li>
+                    <li>`.run` </li>
+                    <li>`.sh`</li>
+                </ul>
+            </div>
+             <div class="execution">
+                <h2>Script Execution</h2>
+                <ul>
+                    <li>Bash scripts (`.sh`): Execute in Terminal (`./script.sh` after `chmod +x`).</li> 
+                    <li>Shebang line: Directs OS to the interpreter (e.g., `#!/bin/bash`).</li>
+                </ul>
+            </div>
+        </div>
+        <div class="mac">
+            <div class="display"></div>
+            <br>
+            <div class="dir-structure">
+                <h2>Directory Structure</h2>
+                <ul>
+                    <li>Unix-like hierarchy with root (`/`).</li>
+                    <li>Key folders: `/home` (user files), `/bin` (executables), `/etc` (configs)</li>
+                    <li>File paths: Forward slashes (`/`), e.g., `/home/name/Document.txt`.</li>
+                </ul>
+            </div>
+            <br>
+            <div class="nam-conventions">
+                <h2>Naming Conventions</h2>
+                <ul>
+                    <li>case sensitive</li>
+                    <li>255 characters</li>
+                </ul>
+            </div>
+            <br>
+            <div class="file-system">
+                <h2>File Systems</h2>
+                <ul>
+                    <li>NTFS (default), ReFS</li>
+                    <li>FAT32 for cross-platform compatibility</li>
+                </ul>
+            </div>
+            <div class="exe">
+                <h2>Executable File Extensions</h2>
+                <ul>
+                    <li>`.bin` </li>
+                    <li>`.run` </li>
+                    <li>`.sh`</li>
+                </ul>
+            </div>
+            <div class="execution">
+                <h2>Script Execution</h2>
+                <ul>
+                    <li>Bash scripts (`.sh`): Execute in Terminal (`./script.sh` after `chmod +x`).</li> 
+                    <li>Shebang line: Directs OS to the interpreter (e.g., `#!/bin/bash`).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
