@@ -1,23 +1,23 @@
 
 body{
-    background-color: lightblue;
+    background-color: #638475;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding:30px;
-    margin: 25px;
+    margin: 10px;
     
     
     .intro-div {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border: 2px solid rgb(28, 76, 109);
+        border: 3px solid #90E39A;
         border-radius: 50px;
         padding: 10px 20px;
             .intro {
-                color: rgb(30, 88, 143);
-                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                 padding: 20px;
             }
             .nav-links {
@@ -33,7 +33,7 @@ body{
                 padding-right: 100px;
                 text-decoration: none;
                 a {
-                    color: rgb(66, 152, 233);
+                    color: white;
                     text-decoration: none;
                     font-weight: bold;
                     font-size: x-large;    
@@ -51,22 +51,22 @@ body{
         text-align: center;
         font-size: x-large;
         margin:auto;
-        color: rgb(30, 88, 143);
+        color:white;
         
     }
     
 
     .field{
-        width:auto;
+        width:75%;
         margin: auto;
         border-radius: 15px;
         padding:15px;
-        box-shadow: 0 4px 12px rgba(235, 232, 232, 0.2);
-        border: 1px solid rgb(2, 32, 54);
+        box-shadow: 0 4px 12px white;
+        border: 1px solid #90E39A;
         .cloud-computing{
             display: flex;
             .def{
-                color: rgb(30, 88, 143);
+                color: white;
                 padding:10px;
                 margin: auto;
                 padding-left:150px;
@@ -78,26 +78,26 @@ body{
     .form-field{
         width:300px;
         margin: auto;
-        border: 3px solid rgb(30, 88, 143);
+        border: 3px solid #90E39A;
         border-radius: 15px;
             legend{
-                color: rgb(30, 88, 143);
+                color: white;
             }
             .form{
                 margin:auto;
                 padding: 10px;
-                color:rgb(30, 88, 143);
+                color:white;
                 align-content: center;
                 justify-self: center;
                 font-weight: bold;
                     #name{
                         margin:5px;
-                        border: 2px solid navy;
+                        border: 2px solid #90E39A;
                         border-radius: 3px;
                     }
                     #email{
                         margin:5px;
-                        border: 2px solid navy;
+                        border: 2px solid #90E39A;
                         border-radius: 3px;
                     }
                     #updates{
@@ -107,22 +107,17 @@ body{
                     #button{
                         margin-top:7px;
                         margin-left:100px;
-                        border: 2px solid navy;
+                        border: 2px solid #90E39A;
                         border-radius: 10px;
                         font-weight: bold;
-                        background-color: lightblue;
-                        color: rgb(30, 88, 143);
+                        background-color: rgb(14, 136, 109);
+                        color: white;
                     }
             }
-            
-            
-            #evolution{
-                opacity: 0.5;
-            } 
         }
         #contact{
             text-align: center;
-            color:rgb(30, 88, 143);
+            color:white;
         }
 }
 
