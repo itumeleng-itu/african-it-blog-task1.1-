@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("media/images/background2.jpg");
+    background-color: #638475;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -10,13 +10,13 @@ body {
 }
 
 .intro {
-    color: rgb(52, 53, 54);
+    color: rgb(240, 241, 240);
     text-align: center;
     text-shadow: 1px 1px 2px rgb(30, 88, 143);
 }
 
 .def {
-    color: rgb(43, 41, 41);
+    color: rgb(244, 247, 244);
     font-size: large;
     font-weight: bold;
     text-align: center;
@@ -50,7 +50,7 @@ body {
 }
 
 .windows {
-    border: 3px solid green;
+    border: 3px solid rgb(104, 185, 104);
     border-radius: 25px;
     .display {
         background-image: url("media/images/Gemini_Generated_Image_wjxvbewjxvbewjxv.png");
@@ -59,7 +59,7 @@ body {
 }
 }
 .mac{
-    border: 3px solid blue;
+    border: 3px solid rgb(104, 185, 104);
     border-radius: 25px;
     .display {
         background-image: url("media/images/Gemini_Generated_Image_vpz2d6vpz2d6vpz2.png");
@@ -69,7 +69,7 @@ body {
 } 
 
 .linux{
-    border: 3px solid white;
+    border: 3px solid rgb(104, 185, 104);
     border-radius: 25px;
     .display {
         background-image: url("media/images/Gemini_Generated_Image_y61a4iy61a4iy61a.png");
@@ -78,7 +78,7 @@ body {
     }
 } 
 .dir-structure, .nam-conventions, .file-system, .exe, .execution {
-    border: 2px solid white;
+    border: 3px solid rgb(104, 185, 104);
     border-radius: 25px;
     padding: 15px;
     width: 80%;
