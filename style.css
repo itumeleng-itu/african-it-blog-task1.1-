@@ -89,7 +89,6 @@ body {
             border-color: #93c5fd;
         }
     }
-    /* Form styles */
     .form-container {
         margin-top: 30px;
         padding: 20px;
@@ -142,7 +141,9 @@ body {
                 outline: none;
                 box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
             }
-            .radio-group {
+            
+        }
+        .radio-group {
                 display: flex;
                 justify-content: center;
                 gap: 20px;
@@ -157,15 +158,11 @@ body {
                     margin-right: 8px;
                 }
             }
-        }
     }
  
     
 }
 
-
-
-/* Responsive Styles */
 @media (max-width: 768px) {
     .container {
         grid-template-columns: 1fr;
