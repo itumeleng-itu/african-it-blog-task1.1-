@@ -1,111 +1,135 @@
-
+/* General Styles */
 body {
-    background-color: #638475;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 .intro {
-    color: rgb(240, 241, 240);
     text-align: center;
-    text-shadow: 1px 1px 2px rgb(30, 88, 143);
+    color: #2c3e50;
+    margin: 20px 0;
 }
 
 .def {
-    color: rgb(244, 247, 244);
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
     max-width: 800px;
     margin: 0 auto 30px;
-    text-shadow: rgb(30, 88, 143);
+    padding: 0 20px;
+    font-size: 1.1rem;
+    text-align: center;
 }
 
+/* Parent Container */
 .parent {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
-
+    padding: 0 20px;
 }
 
-.windows, .mac, .linux {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* OS Cards */
+.windows,
+.linux,
+.mac {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
 }
 
 .display {
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-    border: 2px solid lightblue;
-    border-radius: 50%;
-    
-}
-
-.windows {
-    border: 3px solid rgb(104, 185, 104);
-    border-radius: 25px;
-    .display {
-        background-image: url("media/images/Gemini_Generated_Image_wjxvbewjxvbewjxv.png");
-        margin-top: 10px;
-        margin-bottom: 15px;
-}
-}
-.mac{
-    border: 3px solid rgb(104, 185, 104);
-    border-radius: 25px;
-    .display {
-        background-image: url("media/images/Gemini_Generated_Image_vpz2d6vpz2d6vpz2.png");
-        margin-top: 10px;
-        margin-bottom: 15px;
-    }
-} 
-
-.linux{
-    border: 3px solid rgb(104, 185, 104);
-    border-radius: 25px;
-    .display {
-        background-image: url("media/images/Gemini_Generated_Image_y61a4iy61a4iy61a.png");
-        margin-top: 10px;
-        margin-bottom: 15px;
-    }
-} 
-.dir-structure, .nam-conventions, .file-system, .exe, .execution {
-    border: 3px solid rgb(104, 185, 104);
-    border-radius: 25px;
-    padding: 15px;
-    width: 80%;
+    height: 100px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
     margin-bottom: 15px;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-h2 {
-    color: white;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
-    margin-top: 0;
+    color: #555;
 }
 
-ul {
+/* Section Styling */
+.dir-structure,
+.nam-conventions,
+.file-system,
+.exe,
+.execution {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.dir-structure h2,
+.nam-conventions h2,
+.file-system h2,
+.exe h2,
+.execution h2 {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.dir-structure ul,
+.nam-conventions ul,
+.file-system ul,
+.exe ul,
+.execution ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dir-structure li,
+.nam-conventions li,
+.file-system li,
+.exe li,
+.execution li {
+    padding: 5px 0;
+    font-size: 0.95rem;
+}
+
+/* Windows Specific */
+.windows .display {
+    background-color: #0078d4;
     color: white;
-    padding-left: 20px;
+    content: "Windows";
 }
 
-li {
-    margin-bottom: 8px;
+/* Linux Specific */
+.linux .display {
+    background-color: #fcaf3e;
+    color: white;
+    content: "Linux";
 }
 
-@media (max-width: 900px) {
+/* Mac Specific */
+.mac .display {
+    background-color: #666;
+    color: white;
+    content: "macOS";
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
     .parent {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .windows,
+    .linux,
+    .mac {
+        width: 100%;
+        max-width: 400px;
     }
 }
-
-    
